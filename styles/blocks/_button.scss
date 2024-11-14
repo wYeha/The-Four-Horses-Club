@@ -1,0 +1,32 @@
+.button {
+	@include reset-button;
+	cursor: pointer;
+
+	height: 72px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 130%;
+	border-radius: 66px;
+	border: 2px solid var(--base-alt-color);
+
+	&--dark {
+		background-color: var(--base-alt-color);
+		color: var(--white-color);
+
+		@include hover {
+			background-color: var(--accent-alt-color);
+			color: var(--base-alt-color);
+			border-color: var(--accent-alt-color);
+		}
+	}
+
+	&--transparent {
+		background-color: transparent;
+		color: var(--base-alt-color);
+
+		@include hover {
+			background-color: var(--base-alt-color);
+			color: var(--white-color);
+		}
+	}
+}

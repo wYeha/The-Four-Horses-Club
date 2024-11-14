@@ -1,0 +1,77 @@
+.intro-wrapper {
+	height: 700px;
+	background-image: url('../images/intro/intro-background.jpg');
+	background-position: center;
+	margin-top: -62px;
+}
+
+.intro {
+	padding-top: 124px;
+
+	&__title,
+	&__description,
+	&__buttons-box {
+		max-width: 542px;
+	}
+
+	&__title-text {
+		line-height: 110%;
+		display: block;
+	}
+
+	&__description {
+		padding-top: 24px;
+		padding-bottom: 40px;
+		text-align: center;
+
+		& p {
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 130%;
+		}
+	}
+
+	&__buttons-box {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__button {
+		padding-inline: 49px;
+		max-width: 263px;
+	}
+}
+
+
+
+
+
+
+// .intro-wrapper {
+// 	height: 700px;
+// 	width: 100%;
+// 	max-width: 1920px;
+// 	margin: 0 auto;
+// 	background:
+// 		url('../images/intro/pawn.png'),
+// 		url('../images/intro/horse.png'),
+// 		url('../images/intro/texture.png'),
+// 		url('../images/intro/city.png'),
+// 		url('../images/intro/round-letters.svg'),
+// 		url('../images/intro/circle.svg');
+
+// 	background-position:
+// 		1516px calc(100% - 20px),
+// 		1114px calc(100% + 51px),
+// 		0 -123px, 161px calc(100% + 22px),
+// 		893px -102px,
+// 		951px -44px;
+
+// 	background-blend-mode: normal, normal, color-burn, normal, overlay, normal;
+// 	background-repeat: no-repeat;
+// 	background-color: #E9DED4;
+
+// 	position: relative;
+// 	margin-top: -36px;
+// 	z-index: -1;
+// }
